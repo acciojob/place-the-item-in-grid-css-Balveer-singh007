@@ -2,10 +2,11 @@
 /* Your CSS Code here. */
 .holder{
 	display:grid;
+	width:100%;
 	grid-template-rows:200px repeat(1, 1fr);
     grid-template-columns:200px repeat(1, 1fr);
 }
-.items{
+.item-1,.item-2,.item-3,.item-4{
 	color:pink;
-	background:blue;
+	background:yellow;
 }
